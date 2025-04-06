@@ -6,15 +6,8 @@ import businesslogic.NumberTransformer;
 
 public class NumberTransformerFactory
 {
-    static HexNumberTransformer hexTransformer = null;
-
     public static NumberTransformer createHexNumberTranformer() {
-
-        //make sure there is never more than 1 hexTransformer instance
-        if (hexTransformer == null) {
-            hexTransformer = new HexNumberTransformer();
-        }
-        return hexTransformer;
+        return new HexNumberTransformer();
     }
 
     public static NumberTransformer createGermanNumberTranformer(){
