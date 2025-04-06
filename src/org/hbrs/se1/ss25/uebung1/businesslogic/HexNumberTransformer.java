@@ -2,7 +2,6 @@ public class HexNumberTransformer implements org.hbrs.se1.ss25.uebung1.businessl
     @Override
     public String transformNumber(int number) {
 
-        //char number_char = (char) number;
         if(0 < number && number < 65535){
             return Integer.toHexString(number);
         }
@@ -14,4 +13,7 @@ public class HexNumberTransformer implements org.hbrs.se1.ss25.uebung1.businessl
 
         return "Transformer für Hexadezimalzahlen";
     }
+
+
+
 }

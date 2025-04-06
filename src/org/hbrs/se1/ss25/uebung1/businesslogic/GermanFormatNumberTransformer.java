@@ -6,11 +6,10 @@ public class GermanFormatNumberTransformer implements org.hbrs.se1.ss25.uebung1.
     @Override
     public String transformNumber(int number) {
 
-        //char number_char = (char) number;
         if(0 < number && number < 65535){
 
             DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.GERMANY);
-            DecimalFormat df = new DecimalFormat("###.###,##");
+            DecimalFormat df = new DecimalFormat("#,###.##", symbols);
             return df.format(number);
         }
         return "Nicht im Wertebereich 1 - 65535";

@@ -1,4 +1,4 @@
-package org.hbrs.se1.ss25.uebung1.businesslogic;
+package Uebung1.businesslogic;
 
 public interface NumberTransformer {
     String transformNumber(int number);
