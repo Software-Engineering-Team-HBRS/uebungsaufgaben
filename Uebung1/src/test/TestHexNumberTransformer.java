@@ -1,7 +1,7 @@
-package Uebung1.test;
+package test;
 
-import Uebung1.businesslogic.HexNumberTransformer;
-import Uebung1.businesslogic.NumberTransformer;
+import businesslogic.HexNumberTransformer;
+import businesslogic.NumberTransformer;
 import org.junit.jupiter.api.Test;
 
 public class TestHexNumberTransformer {

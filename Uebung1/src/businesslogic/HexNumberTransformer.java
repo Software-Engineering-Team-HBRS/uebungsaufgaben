@@ -1,4 +1,6 @@
-public class HexNumberTransformer implements org.hbrs.se1.ss25.uebung1.businesslogic.NumberTransformer {
+package businesslogic;
+
+public class HexNumberTransformer implements businesslogic.NumberTransformer {
     @Override
     public String transformNumber(int number) {
 

@@ -1,8 +1,10 @@
+package businesslogic;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 
-public class GermanFormatNumberTransformer implements org.hbrs.se1.ss25.uebung1.businesslogic.NumberTransformer{
+public class GermanFormatNumberTransformer implements NumberTransformer{
     @Override
     public String transformNumber(int number) {
 

@@ -1,8 +1,5 @@
-package Uebung1;
-
-import Uebung1.businesslogic.GermanFormatNumberTransformer;
-import Uebung1.businesslogic.HexNumberTransformer;
-import Uebung1.test.TestHexNumberTransformer;
+import businesslogic.GermanFormatNumberTransformer;
+import businesslogic.HexNumberTransformer;
 
 public class Main {
     public static void main(String[] args) {

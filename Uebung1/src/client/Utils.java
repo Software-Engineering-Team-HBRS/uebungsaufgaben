@@ -1,8 +1,8 @@
-package Uebung1.client;
+package client;
 
-import Uebung1.businesslogic.GermanFormatNumberTransformer;
-import Uebung1.businesslogic.HexNumberTransformer;
-import Uebung1.businesslogic.NumberTransformer;
+import businesslogic.GermanFormatNumberTransformer;
+import businesslogic.HexNumberTransformer;
+import businesslogic.NumberTransformer;
 
 //Frage 2:
 public class Utils

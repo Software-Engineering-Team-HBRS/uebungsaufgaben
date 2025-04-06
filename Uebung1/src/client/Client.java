@@ -1,13 +1,10 @@
-package Uebung1.client;
+package client;
 
-import Uebung1.businesslogic.HexNumberTransformer;
+import businesslogic.HexNumberTransformer;
 
-
-
-public class Client extends HexNumberTransformer {
+public class Client {
     public void printTransformation(int number) {
         String result = Utils.createHexNumberTranformer().transformNumber(number);
         System.out.println("Die Hexadezimaldarstellung der Zahl " + number + " ist: " + result);
     }
-
 }
