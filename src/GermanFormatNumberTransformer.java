@@ -1,4 +1,6 @@
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
 
 public class GermanFormatNumberTransformer implements org.hbrs.se1.ss25.uebung1.businesslogic.NumberTransformer{
     @Override
@@ -7,7 +9,8 @@ public class GermanFormatNumberTransformer implements org.hbrs.se1.ss25.uebung1.
         //char number_char = (char) number;
         if(0 < number && number < 65535){
 
-            DecimalFormat df = new DecimalFormat("0,000,000.0#");
+            DecimalFormatSymbols symbols = new DecimalFormatSymbols(Locale.GERMANY);
+            DecimalFormat df = new DecimalFormat("###.###,##");
             return df.format(number);
         }
         return "Nicht im Wertebereich 1 - 65535";
