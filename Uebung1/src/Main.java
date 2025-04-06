@@ -16,10 +16,5 @@ public class Main {
         GermanFormatNumberTransformer germanTransformer = new GermanFormatNumberTransformer();
         String germanNumber = germanTransformer.transformNumber(63000);
         System.out.print("german Number: " + germanNumber);
-
-        //1.1a) Frage 1:
-        //man könnte das Interface NumberTransformer.java in eine abstrakte Klasse abändern und
-        // dort eine Methode für den Wertebereich Check implementieren.
     }
-
 }

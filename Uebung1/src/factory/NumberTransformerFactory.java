@@ -1,22 +1,20 @@
-package client;
+package factory;
 
 import businesslogic.GermanFormatNumberTransformer;
 import businesslogic.HexNumberTransformer;
 import businesslogic.NumberTransformer;
 
-//Frage 2:
-public class Utils
+public class NumberTransformerFactory
 {
     static HexNumberTransformer hexTransformer = null;
 
-    public static NumberTransformer createHexNumberTranformer(){
+    public static NumberTransformer createHexNumberTranformer() {
+
+        //make sure there is never more than 1 hexTransformer instance
         if (hexTransformer == null) {
             hexTransformer = new HexNumberTransformer();
         }
         return hexTransformer;
-
-        //Frage 3:
-        //Diese Implementation der Methode garantiert, dass nie mehr als 1 NumberTransformer instanziiert wird.
     }
 
     public static NumberTransformer createGermanNumberTranformer(){

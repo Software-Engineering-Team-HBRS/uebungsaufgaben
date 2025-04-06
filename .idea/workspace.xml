@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eaddc95-b64f-4f33-81cc-aaaf2d8f255a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebung1/S1 Übung 1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uebung1/~WRL0820.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/S1 Übung 1.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Uebungen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klassendiagramm_Uebung1.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/Klassendiagramm_Uebung1.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/businesslogic/GermanFormatNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/businesslogic/GermanFormatNumberTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/businesslogic/HexNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/businesslogic/HexNumberTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/businesslogic/NumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/businesslogic/NumberTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/client/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/client/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uebung1/test/TestHexNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/test/TestHexNumberTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/businesslogic/GermanFormatNumberTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/businesslogic/HexNumberTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/client/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/S1 Übung 1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/S1 Übung 1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/src/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/src/client/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/factory/NumberTransformerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Uebung1/src/test/TestHexNumberTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Uebung1/src/test/TestHexNumberTransformer.java" afterDir="false" />
     </list>
     <list id="925d09ce-beea-4e87-85e5-ce942cd563cf" name="Changes by buche" comment="" />
     <list id="ecdabb27-0ec4-44df-92d3-f6dae98465b7" name="Changes by joshu" comment="" />
@@ -126,7 +118,7 @@
       <updated>1743765405525</updated>
       <workItem from="1743937235809" duration="423000" />
       <workItem from="1743937687884" duration="1199000" />
-      <workItem from="1743939180195" duration="5479000" />
+      <workItem from="1743939180195" duration="7778000" />
     </task>
     <servers />
   </component>
