@@ -1,18 +1,16 @@
 package Aufgabe2.buisnesslogic;
 
-public class EnduserCard implements PersonCard {
-    @Override
-    public String getFirstName() {
-        return "";
+public class EnduserCard extends AbstractPersonCard {
+    public EnduserCard(String firstName, String lastName, int id) {
+        super(firstName, lastName, id);
+    }
+
+    public boolean isHungry(){
+        return true;
     }
 
     @Override
-    public String getLastName() {
-        return "";
-    }
-
-    @Override
-    public int getId() {
-        return 0;
+    public String toString() {
+        return super.toString() + ", Ist Hungrig = " + isHungry();
     }
 }
