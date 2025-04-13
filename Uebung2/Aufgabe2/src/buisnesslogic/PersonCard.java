@@ -1,4 +1,4 @@
-package Aufgabe2.buisnesslogic;
+package buisnesslogic;
 
 public interface PersonCard {
     public String getFirstName();

@@ -1,6 +1,6 @@
-package Aufgabe2.factory;
+package factory;
 
-import Aufgabe2.buisnesslogic.CardBox;
+import buisnesslogic.CardBox;
 
 public class CardBoxFactory {
     public static CardBox createCardBox() {

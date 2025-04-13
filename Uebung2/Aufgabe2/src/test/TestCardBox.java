@@ -1,10 +1,10 @@
-package Aufgabe2.test;
+package test;
 
-import Aufgabe2.buisnesslogic.CardBox;
-import Aufgabe2.buisnesslogic.CardBoxException;
-import Aufgabe2.buisnesslogic.PersonCard;
-import Aufgabe2.factory.CardBoxFactory;
-import Aufgabe2.factory.PersonCardFactory;
+import buisnesslogic.CardBox;
+import buisnesslogic.CardBoxException;
+import buisnesslogic.PersonCard;
+import factory.CardBoxFactory;
+import factory.PersonCardFactory;
 import org.junit.Before;
 import org.junit.Test;
 

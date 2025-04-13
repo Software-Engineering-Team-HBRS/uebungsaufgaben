@@ -1,4 +1,4 @@
-package Aufgabe2.buisnesslogic;
+package buisnesslogic;
 
 public abstract class AbstractPersonCard implements PersonCard {
     String FirstName;

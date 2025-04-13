@@ -1,4 +1,4 @@
-package Aufgabe2.buisnesslogic;
+package buisnesslogic;
 
 public class DeveloperCard extends AbstractPersonCard {
     public DeveloperCard(String firstName, String lastName, int id) {
