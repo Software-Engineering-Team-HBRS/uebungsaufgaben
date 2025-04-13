@@ -1,26 +1,16 @@
 package Aufgabe2.buisnesslogic;
 
-public class DeveloperCard implements PersonCard {
-    @Override
-    public String getFirstName() {
-        return "";
+public class DeveloperCard extends AbstractPersonCard {
+    public DeveloperCard(String firstName, String lastName, int id) {
+        super(firstName, lastName, id);
+    }
+
+    public boolean hasEnoughCoffee(){
+        return true;
     }
 
     @Override
-    public String getLastName() {
-        return "";
+    public String toString() {
+        return super.toString() + ", Hat genug Kaffee = " + hasEnoughCoffee();
     }
-
-    @Override
-    public int getId() {
-        return 0;
-    }
-
-    public String hasEnoughCoffee(){
-        return "";
-    }
-    public String isHungry(){
-        return "";
-    }
-
 }
