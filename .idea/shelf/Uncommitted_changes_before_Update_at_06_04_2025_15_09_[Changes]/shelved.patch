@@ -1,0 +1,75 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3eaddc95-b64f-4f33-81cc-aaaf2d8f255a\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Uebung1/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Uebungen.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Uebungen.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/GermanFormatNumberTransformer.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/HexNumberTransformer.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/Main.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/businesslogic/NumberTransformer.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/client/Client.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <list id=\"925d09ce-beea-4e87-85e5-ce942cd563cf\" name=\"Changes by buche\" comment=\"\" />\r\n    <list id=\"ecdabb27-0ec4-44df-92d3-f6dae98465b7\" name=\"Changes by joshu\" comment=\"\" />\r\n    <list id=\"790c6e15-4607-4711-8a8c-340eecaad864\" name=\"Changes by Martin\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2vGJJ6cgvo3w6nzg6ObflOroPiZ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Downloaded.Files.Path.Enabled\": \"false\",\r\n    \"JUnit.TestHexNumberTransformer.TestHexNumbers.executor\": \"Run\",\r\n    \"Repository.Attach.Annotations\": \"false\",\r\n    \"Repository.Attach.JavaDocs\": \"false\",\r\n    \"Repository.Attach.Sources\": \"false\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"test\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/GitRepos/uebungsaufgaben/src/Uebung1\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"CodeWithMe\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\GitRepos\\uebungsaufgaben\\src\\Uebung1\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\.shortcut-targets-by-id\\1-7nuox2jXrBJUJ79sadfNYCzBGgox4yH\\Studium\\4. Semester\\SE1\\Übungen\\Uebungen\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"TestHexNumberTransformer.TestHexNumbers\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Uebungen\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"Uebung1.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"Uebung1.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Uebung1.test.TestHexNumberTransformer\" />\r\n      <option name=\"METHOD_NAME\" value=\"TestHexNumbers\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.TestHexNumberTransformer.TestHexNumbers\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3eaddc95-b64f-4f33-81cc-aaaf2d8f255a\" name=\"Changes\" comment=\"\" />\r\n      <created>1743765405525</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1743765405525</updated>\r\n      <workItem from=\"1743937235809\" duration=\"423000\" />\r\n      <workItem from=\"1743937687884\" duration=\"1199000\" />\r\n      <workItem from=\"1743939180195\" duration=\"4878000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"OPEN_GENERIC_TABS\">\r\n      <map>\r\n        <entry key=\"e4bd490b-85fe-4b92-80ad-581cfd922e73\" value=\"TOOL_WINDOW\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"e4bd490b-85fe-4b92-80ad-581cfd922e73\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision e6f5250b737e6ac0ed37f87781ebe424523fe605)
++++ b/.idea/workspace.xml	(date 1743944951194)
+@@ -5,15 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3eaddc95-b64f-4f33-81cc-aaaf2d8f255a" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/Uebung1/Main.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Uebungen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Uebungen.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/GermanFormatNumberTransformer.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/HexNumberTransformer.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/businesslogic/NumberTransformer.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ss25/uebung1/client/Client.java" beforeDir="false" />
+     </list>
+     <list id="925d09ce-beea-4e87-85e5-ce942cd563cf" name="Changes by buche" comment="" />
+     <list id="ecdabb27-0ec4-44df-92d3-f6dae98465b7" name="Changes by joshu" comment="" />
+@@ -32,7 +24,20 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++    <option name="UPDATE_TYPE" value="REBASE" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "ItsAlpara"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/Software-Engineering-Team-HBRS/uebungsaufgaben.git",
++    "accountId": "2167f3c0-1658-460a-bd80-396ff980848d"
++  }
++}]]></component>
+   <component name="ProblemsViewState">
+     <option name="selectedTabId" value="CurrentFile" />
+   </component>
+@@ -56,7 +61,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "test",
++    "git-widget-placeholder": "main",
+     "ignore.virus.scanning.warn.message": "true",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "D:/GitRepos/uebungsaufgaben/src/Uebung1",
+@@ -103,8 +108,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
++        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -119,6 +124,7 @@
+       <workItem from="1743937235809" duration="423000" />
+       <workItem from="1743937687884" duration="1199000" />
+       <workItem from="1743939180195" duration="4878000" />
++      <workItem from="1743944519452" duration="432000" />
+     </task>
+     <servers />
+   </component>
