@@ -5,6 +5,7 @@ import java.util.List;
 
     //FA1
 public class CardBox {
+    private static CardBox instance;
     List<PersonCard> cards;
 
     public CardBox() {
@@ -40,8 +41,16 @@ public class CardBox {
         }
     }
 
-    //FA4
+
     public int size() {
         return cards.size();
+    }
+
+    //CR1 - Factory wird nicht mehr benötigt?
+    public static CardBox getInstance() {
+        if (instance == null) {
+            instance = new CardBox();
+        }
+        return instance;
     }
 }
