@@ -21,8 +21,7 @@ public class CardBox {
         return;
     }
 
-    //FA2 - Nachteile dieser Lösung sind: Von einem String ist nicht direkt erkennbar, ob es ein Fehler ist.
-    //Außerdem ist Exception Handhabung genau für Fehlererkennung als Standard eingeführt worden.
+
     public String deletePersonCard(int id) {
         for(PersonCard c : cards) {
             if(c.getId() == id) {

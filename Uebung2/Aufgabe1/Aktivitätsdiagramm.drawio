@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="3570" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7nI64X__2j-Hu28zdMV8-127" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="7nI64X__2j-Hu28zdMV8-127" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;" parent="1" vertex="1">
           <mxGeometry x="69" y="20" width="1211" height="2110" as="geometry" />
         </mxCell>
         <mxCell id="2" value="Nullpointer Software GmbH" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-117" value="Fachkonzept überarbeiten" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="20" y="878" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-44" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-44" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" parent="3" vertex="1">
           <mxGeometry x="20" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Project Management Office" style="swimlane;whiteSpace=wrap" parent="2" vertex="1">
@@ -84,7 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-20" value="[keine Fehler]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nI64X__2j-Hu28zdMV8-122">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-20" value="[keine Fehler]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7nI64X__2j-Hu28zdMV8-122" vertex="1" connectable="0">
           <mxGeometry x="-0.2242" relative="1" as="geometry">
             <mxPoint y="54" as="offset" />
           </mxGeometry>
@@ -98,16 +98,16 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-121" value="Abnahme ohne Vorbehalt vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;" parent="4" vertex="1">
           <mxGeometry x="60" y="988" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-36" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="4">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-36" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="4" vertex="1">
           <mxGeometry x="22.5" y="1338" width="145" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="4" source="FuTrQBoRgf2_QPBbG5Mb-50" target="FuTrQBoRgf2_QPBbG5Mb-54">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="4" source="FuTrQBoRgf2_QPBbG5Mb-50" target="FuTrQBoRgf2_QPBbG5Mb-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-50" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="4">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-50" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="4" vertex="1">
           <mxGeometry x="22.5" y="1618" width="145" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-54" value="Fachkonzept" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-54" value="Fachkonzept" style="rounded=0;whiteSpace=wrap;html=1;" parent="4" vertex="1">
           <mxGeometry x="35" y="1678" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nI64X__2j-Hu28zdMV8-53" value="Projektleiter (Kunde)" style="swimlane;whiteSpace=wrap;startSize=23;" parent="2" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-95" value="Anmerkungen" style="rounded=0;whiteSpace=wrap;html=1;" parent="7nI64X__2j-Hu28zdMV8-53" vertex="1">
           <mxGeometry x="35" y="478" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-39" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7nI64X__2j-Hu28zdMV8-53">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-39" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" parent="7nI64X__2j-Hu28zdMV8-53" vertex="1">
           <mxGeometry x="35" y="1398" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nI64X__2j-Hu28zdMV8-55" value="IT-Leiterin" style="swimlane;whiteSpace=wrap;startSize=23;" parent="2" vertex="1">
@@ -137,7 +137,7 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-94" value="Anmerkungen" style="rounded=0;whiteSpace=wrap;html=1;" parent="7nI64X__2j-Hu28zdMV8-55" vertex="1">
           <mxGeometry x="40" y="478" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-46" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7nI64X__2j-Hu28zdMV8-55">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-46" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" parent="7nI64X__2j-Hu28zdMV8-55" vertex="1">
           <mxGeometry x="40" y="1500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7nI64X__2j-Hu28zdMV8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="2" source="7nI64X__2j-Hu28zdMV8-51" target="7nI64X__2j-Hu28zdMV8-52" edge="1">
@@ -183,7 +183,7 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-14" target="7nI64X__2j-Hu28zdMV8-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-60" value="[Zeit drängt nicht]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nI64X__2j-Hu28zdMV8-115">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-60" value="[Zeit drängt nicht]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7nI64X__2j-Hu28zdMV8-115" vertex="1" connectable="0">
           <mxGeometry x="-0.7793" y="3" relative="1" as="geometry">
             <mxPoint x="-4" y="-3" as="offset" />
           </mxGeometry>
@@ -196,21 +196,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-28" value="[weniger&lt;div&gt;kritische&amp;nbsp;&lt;div&gt;Fehler]&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7nI64X__2j-Hu28zdMV8-118">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-28" value="[weniger&lt;div&gt;kritische&amp;nbsp;&lt;div&gt;Fehler]&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7nI64X__2j-Hu28zdMV8-118" vertex="1" connectable="0">
           <mxGeometry x="-0.4292" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-14" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="2">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-14" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="2" vertex="1">
           <mxGeometry x="180" y="790" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="2" source="7nI64X__2j-Hu28zdMV8-106" target="FuTrQBoRgf2_QPBbG5Mb-14">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="2" source="7nI64X__2j-Hu28zdMV8-106" target="FuTrQBoRgf2_QPBbG5Mb-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.139;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="2" source="7nI64X__2j-Hu28zdMV8-117" target="7nI64X__2j-Hu28zdMV8-121">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.139;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" parent="2" source="7nI64X__2j-Hu28zdMV8-117" target="7nI64X__2j-Hu28zdMV8-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-39">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="1390" />
@@ -218,7 +218,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-44" target="FuTrQBoRgf2_QPBbG5Mb-50">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-44" target="FuTrQBoRgf2_QPBbG5Mb-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="1610" />
@@ -226,7 +226,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-46" target="FuTrQBoRgf2_QPBbG5Mb-50">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="2" source="FuTrQBoRgf2_QPBbG5Mb-46" target="FuTrQBoRgf2_QPBbG5Mb-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="640" y="1630" />
@@ -271,20 +271,20 @@
         <mxCell id="7nI64X__2j-Hu28zdMV8-126" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Abnahme eines Fachkonzepts&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="60" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-5" value="Software-Architekt" style="swimlane;whiteSpace=wrap;startSize=23;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-5" value="Software-Architekt" style="swimlane;whiteSpace=wrap;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="890" y="152" width="200" height="1848" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-21" target="FuTrQBoRgf2_QPBbG5Mb-29">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-21" target="FuTrQBoRgf2_QPBbG5Mb-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="350" y="1335" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-21" value="Abnahme mit Vorbehalt vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-21" value="Abnahme mit Vorbehalt vorbereiten" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-14" target="FuTrQBoRgf2_QPBbG5Mb-21">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-14" target="FuTrQBoRgf2_QPBbG5Mb-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="355" y="1160" />
@@ -292,63 +292,63 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuTrQBoRgf2_QPBbG5Mb-22">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FuTrQBoRgf2_QPBbG5Mb-22" vertex="1" connectable="0">
           <mxGeometry x="-0.8643" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-24" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuTrQBoRgf2_QPBbG5Mb-22">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-24" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FuTrQBoRgf2_QPBbG5Mb-22" vertex="1" connectable="0">
           <mxGeometry x="-0.8588" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-25" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22gedfdfds&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuTrQBoRgf2_QPBbG5Mb-22">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-25" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22gedfdfds&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FuTrQBoRgf2_QPBbG5Mb-22" vertex="1" connectable="0">
           <mxGeometry x="-0.8588" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-26" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuTrQBoRgf2_QPBbG5Mb-22">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-26" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Abnahme%20ohne%20Vorbehalt%20vorbereiten%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22370%22%20y%3D%221140%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FuTrQBoRgf2_QPBbG5Mb-22" vertex="1" connectable="0">
           <mxGeometry x="0.2778" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-27" value="[Zeit drängt]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuTrQBoRgf2_QPBbG5Mb-22">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-27" value="[Zeit drängt]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FuTrQBoRgf2_QPBbG5Mb-22" vertex="1" connectable="0">
           <mxGeometry x="0.2999" relative="1" as="geometry">
             <mxPoint y="-153" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-29" target="FuTrQBoRgf2_QPBbG5Mb-33">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-29" target="FuTrQBoRgf2_QPBbG5Mb-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-29" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-29" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="1310" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="7nI64X__2j-Hu28zdMV8-121" target="FuTrQBoRgf2_QPBbG5Mb-29">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="7nI64X__2j-Hu28zdMV8-121" target="FuTrQBoRgf2_QPBbG5Mb-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="1335" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-33" target="FuTrQBoRgf2_QPBbG5Mb-36">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-33" target="FuTrQBoRgf2_QPBbG5Mb-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-33" value="Letter of Acceptance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-33" value="Letter of Acceptance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-38" target="FuTrQBoRgf2_QPBbG5Mb-44">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-38" target="FuTrQBoRgf2_QPBbG5Mb-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-38" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-38" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="1560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-40" target="FuTrQBoRgf2_QPBbG5Mb-46">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-40" target="FuTrQBoRgf2_QPBbG5Mb-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-40" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-40" value="Unterschrift setzen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="1550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-38">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="360" y="1530" />
@@ -356,7 +356,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-40">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-36" target="FuTrQBoRgf2_QPBbG5Mb-40" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="1510" />
@@ -364,7 +364,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-45" target="FuTrQBoRgf2_QPBbG5Mb-50">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-45" target="FuTrQBoRgf2_QPBbG5Mb-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="1740" />
@@ -372,18 +372,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-45" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-45" value="Letter of Acceptance (unterschrieben)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="1652" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-39">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="1650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="975" y="1940" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-54" target="FuTrQBoRgf2_QPBbG5Mb-57">
+        <mxCell id="FuTrQBoRgf2_QPBbG5Mb-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="FuTrQBoRgf2_QPBbG5Mb-54" target="FuTrQBoRgf2_QPBbG5Mb-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
