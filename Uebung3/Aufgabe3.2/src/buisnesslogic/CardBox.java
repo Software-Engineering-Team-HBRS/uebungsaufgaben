@@ -1,5 +1,6 @@
 package buisnesslogic;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,8 +10,8 @@ public class CardBox {
     List<PersonCard> cards;
 
     public CardBox() {
-        cards = new ArrayList<PersonCard>();
-    }
+    cards = new ArrayList<PersonCard>();
+}
 
     public void addPersonCard(PersonCard personCard) throws CardBoxException {
         for(PersonCard c : cards) {
@@ -22,8 +23,7 @@ public class CardBox {
         return;
     }
 
-    //FA2 - Nachteile dieser Lösung sind: Von einem String ist nicht direkt erkennbar, ob es ein Fehler ist.
-    //Außerdem ist Exception Handhabung genau für Fehlererkennung als Standard eingeführt worden.
+
     public String deletePersonCard(int id) {
         for(PersonCard c : cards) {
             if(c.getId() == id) {
@@ -41,16 +41,43 @@ public class CardBox {
         }
     }
 
-
+    //FA4
     public int size() {
         return cards.size();
     }
 
-    //CR1 - Factory wird nicht mehr benötigt?
+
+
+    //CR1 - Singleton Pattern - Factory wird nicht mehr benötigt?
     public static CardBox getInstance() {
         if (instance == null) {
             instance = new CardBox();
         }
         return instance;
+    }
+
+    //CR2
+    public void save() throws CardBoxStorageException {
+
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Uebung3/Aufgabe3.2/src/file.txt"))) {
+            oos.writeObject(cards);
+        } catch (IOException e) {
+            throw new CardBoxStorageException("Fehler beim Speichern der CardBox", e);
+        }
+    }
+
+    public void load() throws CardBoxStorageException {
+
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("Uebung3/Aufgabe3.2/src/file.txt"))) {
+            Object obj = ois.readObject();
+            if (obj instanceof List) {
+                cards.clear();
+                cards.addAll((List<PersonCard>) obj);
+            } else {
+                throw new CardBoxStorageException("Dateiformat ungültig – Liste von PersonCard erwartet.");
+            }
+        } catch (IOException | ClassNotFoundException e) {
+            throw new CardBoxStorageException("Fehler beim Laden der CardBox", e);
+        }
     }
 }

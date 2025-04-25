@@ -1,6 +1,8 @@
 package buisnesslogic;
 
-public abstract class AbstractPersonCard implements PersonCard {
+import java.io.Serializable;
+
+public abstract class AbstractPersonCard implements PersonCard, Serializable {
     String FirstName;
     String LastName;
     int id;

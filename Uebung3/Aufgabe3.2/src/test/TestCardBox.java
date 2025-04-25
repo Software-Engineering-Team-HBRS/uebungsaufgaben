@@ -52,7 +52,7 @@ public class TestCardBox {
     }
 
     @Test
-    public void testCardBoxInhalt() throws CardBoxException {
+    public void testCardBoxShowContent() throws CardBoxException {
         cardBox.addPersonCard(personCard1);
         cardBox.addPersonCard(personCard2);
         cardBox.showContent();
