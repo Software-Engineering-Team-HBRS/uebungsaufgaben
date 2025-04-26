@@ -67,11 +67,8 @@
         <mxCell id="zSzZWTqhvxV4pjIwZvgy-60" value="Team" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="440" y="120" width="280" height="800" as="geometry" />
         </mxCell>
-        <mxCell id="zSzZWTqhvxV4pjIwZvgy-65" value="&lt;div&gt;Aufwands-schätzung&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="zSzZWTqhvxV4pjIwZvgy-60">
-          <mxGeometry x="90" y="400" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="zSzZWTqhvxV4pjIwZvgy-61" value="&lt;div&gt;Überblick über &lt;br&gt;&lt;/div&gt;&lt;div&gt;Anforderungen&lt;/div&gt;&lt;div&gt;geben&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="230" y="440" width="100" height="40" as="geometry" />
+          <mxGeometry x="230" y="430" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zSzZWTqhvxV4pjIwZvgy-62" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSzZWTqhvxV4pjIwZvgy-45" target="zSzZWTqhvxV4pjIwZvgy-61">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -88,20 +85,17 @@
             <mxPoint x="290" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSzZWTqhvxV4pjIwZvgy-66" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSzZWTqhvxV4pjIwZvgy-63" target="zSzZWTqhvxV4pjIwZvgy-65">
+        <mxCell id="zSzZWTqhvxV4pjIwZvgy-66" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSzZWTqhvxV4pjIwZvgy-63">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="465" as="sourcePoint" />
-            <mxPoint x="540" y="465" as="targetPoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zSzZWTqhvxV4pjIwZvgy-67" value="&lt;div&gt;Aufwands-schätzung&lt;/div&gt;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="530" y="600" width="100" height="40" as="geometry" />
+        <mxCell id="zSzZWTqhvxV4pjIwZvgy-69" value="Aufwandschätzung" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="520" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zSzZWTqhvxV4pjIwZvgy-68" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zSzZWTqhvxV4pjIwZvgy-65" target="zSzZWTqhvxV4pjIwZvgy-67">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="490" as="sourcePoint" />
-            <mxPoint x="590" y="530" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zSzZWTqhvxV4pjIwZvgy-70" value="&lt;div&gt;Diskussion&lt;/div&gt;&lt;div&gt;Rahmenbedingungen&lt;/div&gt;&lt;div&gt;&amp;amp; Einflussfaktoren&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="zSzZWTqhvxV4pjIwZvgy-69">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
