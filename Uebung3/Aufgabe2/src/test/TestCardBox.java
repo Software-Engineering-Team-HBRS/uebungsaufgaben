@@ -5,25 +5,25 @@ import buisnesslogic.CardBoxException;
 import buisnesslogic.PersonCard;
 import factory.CardBoxFactory;
 import factory.PersonCardFactory;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestCardBox {
     CardBox cardBox;
     PersonCard personCard1;
     PersonCard personCard2;
     PersonCard personCard3;
-    @Before
+
+    @BeforeEach
     public void setUp() {
         cardBox = CardBoxFactory.createCardBox();
         personCard1 = PersonCardFactory.createEnduserCard("John", "Doe", 1);
         personCard2 = PersonCardFactory.createDeveloperCard("Doe", "Doe", 2);
         personCard3 = PersonCardFactory.createDeveloperCard("John", "John", 2);
     }
-
 
     @Test
     public void testCardBoxSize1() throws CardBoxException {
@@ -47,8 +47,8 @@ public class TestCardBox {
         cardBox.addPersonCard(personCard1);
         cardBox.addPersonCard(personCard2);
 
-        assertEquals(cardBox.deletePersonCard(2), "Das CardBox-Objekt mit der ID: 2 wurde entfernt.");
-        assertEquals(cardBox.deletePersonCard(2), "Das CardBox-Objekt mit der ID: 2 konnte nicht entfernt werden, weil es nicht vorhanden ist.");
+        assertEquals("Das CardBox-Objekt mit der ID: 2 wurde entfernt.", cardBox.deletePersonCard(2));
+        assertEquals("Das CardBox-Objekt mit der ID: 2 konnte nicht entfernt werden, weil es nicht vorhanden ist.", cardBox.deletePersonCard(2));
     }
 
     @Test
