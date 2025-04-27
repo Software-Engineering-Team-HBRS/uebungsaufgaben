@@ -1,8 +1,4 @@
-package factory;
-
-import buisnesslogic.DeveloperCard;
-import buisnesslogic.EnduserCard;
-import buisnesslogic.PersonCard;
+package buisnesslogic;
 
 public class PersonCardFactory {
     public static PersonCard createEnduserCard(String FirstName, String LastName, int id) {return new EnduserCard(FirstName, LastName, id);}

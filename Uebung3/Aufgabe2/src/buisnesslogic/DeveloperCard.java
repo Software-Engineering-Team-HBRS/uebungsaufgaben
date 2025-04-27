@@ -1,7 +1,7 @@
 package buisnesslogic;
 
 public class DeveloperCard extends AbstractPersonCard {
-    public DeveloperCard(String firstName, String lastName, int id) {
+    DeveloperCard(String firstName, String lastName, int id) {
         super(firstName, lastName, id);
     }
 

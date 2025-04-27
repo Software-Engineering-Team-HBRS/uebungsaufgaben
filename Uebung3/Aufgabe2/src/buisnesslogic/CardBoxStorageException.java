@@ -1,6 +1,6 @@
 package buisnesslogic;
 
-public class CardBoxStorageException extends Exception {
+public class CardBoxStorageException extends CardBoxException {
     public CardBoxStorageException(String message) {
         super(message);
     }

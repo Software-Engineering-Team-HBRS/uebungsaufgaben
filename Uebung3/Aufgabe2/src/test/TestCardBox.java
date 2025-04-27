@@ -1,12 +1,12 @@
 package test;
 
-import buisnesslogic.CardBox;
-import buisnesslogic.CardBoxException;
-import buisnesslogic.PersonCard;
-import factory.CardBoxFactory;
-import factory.PersonCardFactory;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import buisnesslogic.*;
+import org.junit.jupiter.api.*;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -19,10 +19,20 @@ public class TestCardBox {
 
     @BeforeEach
     public void setUp() {
-        cardBox = CardBoxFactory.createCardBox();
+        cardBox = CardBox.getInstance();
         personCard1 = PersonCardFactory.createEnduserCard("John", "Doe", 1);
         personCard2 = PersonCardFactory.createDeveloperCard("Doe", "Doe", 2);
         personCard3 = PersonCardFactory.createDeveloperCard("John", "John", 2);
+    }
+
+    @AfterEach
+    public void tearDown() {
+        CardBox.reset();
+    }
+
+    @AfterAll
+    public static void tearDownAll() {
+        deleteSaveFileIfExists();
     }
 
     @Test
@@ -55,10 +65,73 @@ public class TestCardBox {
     public void testCardBoxShowContent() throws CardBoxException {
         cardBox.addPersonCard(personCard1);
         cardBox.addPersonCard(personCard2);
-        cardBox.showContent();
-        System.out.print("\n");
+        PersonCardView.showContent(cardBox.getCurrentList());
         cardBox.deletePersonCard(2);
-        cardBox.showContent();
+        PersonCardView.showContent(cardBox.getCurrentList());
+    }
+
+    //CR4
+    @Test
+    public void testCardBoxSaveAndLoad() throws CardBoxException {
+
+        cardBox.addPersonCard(personCard1);
+        cardBox.addPersonCard(personCard2);
+
+        cardBox.save();
+        assert cardBox.size() == 2;
+
+        File file = new File(CardBox.SAVEFILEPATH);
+        assert file.exists();
+
+        cardBox.load();
+        List<PersonCard> cards = cardBox.getCurrentList();
+        assert cards.size() == 2;
+        assert cards.get(0).toString().equals(personCard1.toString());
+        assert cards.get(1).toString().equals(personCard2.toString());
+    }
+
+    @Test
+    public void testCardBoxSaveAndLoad_Empty() throws CardBoxException {
+
+        cardBox.save();
+        assert cardBox.size() == 0;
+
+        File file = new File(CardBox.SAVEFILEPATH);
+        assert file.exists();
+
+        cardBox.load();
+        assert cardBox.size() == 0;
+    }
+
+    @Test
+    public void testCardBoxLoad_FileCorrupt() throws IOException{
+
+        try (FileWriter writer = new FileWriter(CardBox.SAVEFILEPATH)) {
+            writer.write("corrupted file");
+        }
+
+        CardBoxStorageException exception = assertThrows(CardBoxStorageException.class, () -> cardBox.load());
+        assertEquals("Dateiformat ungültig – Liste von PersonCard erwartet.", exception.getMessage());
+    }
+
+    @Test
+    public void testCardBoxLoad_FileMissing() {
+        deleteSaveFileIfExists();
+
+        CardBoxStorageException exception = assertThrows(CardBoxStorageException.class, () -> cardBox.load());
+        assertEquals("Datei nicht gefunden", exception.getMessage());
+    }
+
+    private static void deleteSaveFileIfExists() {
+        File file = new File(CardBox.SAVEFILEPATH);
+        if (file.exists()) {
+            if (file.delete()) {
+                System.out.println("deleted file");
+            }
+            else {
+                System.out.println("failed to delete file");
+            }
+        }
     }
 }
 //Fälle

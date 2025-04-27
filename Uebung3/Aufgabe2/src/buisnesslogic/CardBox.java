@@ -4,12 +4,13 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-    //FA1
+//FA1
 public class CardBox {
+    public static final String SAVEFILEPATH = "Aufgabe2/file.txt";
     private static CardBox instance;
-    List<PersonCard> cards;
+    private final List<PersonCard> cards;
 
-    public CardBox() {
+    private CardBox() {
     cards = new ArrayList<PersonCard>();
 }
 
@@ -23,7 +24,6 @@ public class CardBox {
         return;
     }
 
-
     public String deletePersonCard(int id) {
         for(PersonCard c : cards) {
             if(c.getId() == id) {
@@ -34,21 +34,12 @@ public class CardBox {
         return "Das CardBox-Objekt mit der ID: " + id + " konnte nicht entfernt werden, weil es nicht vorhanden ist.";
     }
 
-    //FA3
-    public void showContent() {
-        for(PersonCard c : cards) {
-            System.out.println(c.toString());
-        }
-    }
-
     //FA4
     public int size() {
         return cards.size();
     }
 
-
-
-    //CR1 - Singleton Pattern - Factory wird nicht mehr benötigt?
+    //CR1 - Singleton Pattern - Factory wird nicht mehr benötigt
     public static CardBox getInstance() {
         if (instance == null) {
             instance = new CardBox();
@@ -56,10 +47,14 @@ public class CardBox {
         return instance;
     }
 
+    public static void reset() {
+        instance = null;
+    }
+
     //CR2
     public void save() throws CardBoxStorageException {
 
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("Uebung3/Aufgabe3.2/src/file.txt"))) {
+        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(SAVEFILEPATH))) {
             oos.writeObject(cards);
         } catch (IOException e) {
             throw new CardBoxStorageException("Fehler beim Speichern der CardBox", e);
@@ -68,16 +63,33 @@ public class CardBox {
 
     public void load() throws CardBoxStorageException {
 
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("Uebung3/Aufgabe3.2/src/file.txt"))) {
+        File file = new File(SAVEFILEPATH);
+        if (!file.exists()) {
+           throw new CardBoxStorageException("Datei nicht gefunden");
+        }
+
+        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(SAVEFILEPATH))) {
             Object obj = ois.readObject();
             if (obj instanceof List) {
                 cards.clear();
                 cards.addAll((List<PersonCard>) obj);
             } else {
-                throw new CardBoxStorageException("Dateiformat ungültig – Liste von PersonCard erwartet.");
+                throw new CardBoxStorageException("unerwarteter Fehler beim Laden der CardBox");
             }
-        } catch (IOException | ClassNotFoundException e) {
-            throw new CardBoxStorageException("Fehler beim Laden der CardBox", e);
         }
+        catch (StreamCorruptedException e) {
+            throw new CardBoxStorageException("Dateiformat ungültig – Liste von PersonCard erwartet.", e);
+        }
+        catch (IOException e) {
+            throw new CardBoxStorageException("IO Fehler beim Laden der CardBox", e);
+        }
+        catch (ClassNotFoundException e) {
+            throw new CardBoxStorageException("class not found exception", e);
+        }
+    }
+
+    //CR3
+    public List<PersonCard> getCurrentList() {
+        return cards;
     }
 }
