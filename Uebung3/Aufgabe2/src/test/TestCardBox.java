@@ -5,34 +5,36 @@ import org.junit.jupiter.api.*;
 
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TestCardBox {
+    static final String SAVEFILETEST = "saveFileTest";
+
     CardBox cardBox;
     PersonCard personCard1;
     PersonCard personCard2;
     PersonCard personCard3;
 
     @BeforeEach
-    public void setUp() {
+    public void setUp(TestInfo info) throws Exception {
         cardBox = CardBox.getInstance();
         personCard1 = PersonCardFactory.createEnduserCard("John", "Doe", 1);
         personCard2 = PersonCardFactory.createDeveloperCard("Doe", "Doe", 2);
         personCard3 = PersonCardFactory.createDeveloperCard("John", "John", 2);
+        if (info.getTags().contains(SAVEFILETEST)) {
+            deleteSaveFileIfExists();
+        }
     }
 
     @AfterEach
-    public void tearDown() {
+    public void tearDown(TestInfo info) throws Exception {
         CardBox.reset();
-    }
-
-    @AfterAll
-    public static void tearDownAll() {
-        deleteSaveFileIfExists();
+        if (info.getTags().contains(SAVEFILETEST)) {
+            deleteSaveFileIfExists();
+        }
     }
 
     @Test
@@ -72,8 +74,8 @@ public class TestCardBox {
 
     //CR4
     @Test
-    public void testCardBoxSaveAndLoad() throws CardBoxException {
-
+    @Tag(SAVEFILETEST)
+    public void testCardBoxSaveAndLoad() throws Exception {
         cardBox.addPersonCard(personCard1);
         cardBox.addPersonCard(personCard2);
 
@@ -91,8 +93,8 @@ public class TestCardBox {
     }
 
     @Test
-    public void testCardBoxSaveAndLoad_Empty() throws CardBoxException {
-
+    @Tag(SAVEFILETEST)
+    public void testCardBoxSaveAndLoad_Empty() throws Exception {
         cardBox.save();
         assert cardBox.size() == 0;
 
@@ -104,8 +106,8 @@ public class TestCardBox {
     }
 
     @Test
-    public void testCardBoxLoad_FileCorrupt() throws IOException{
-
+    @Tag(SAVEFILETEST)
+    public void testCardBoxLoad_FileCorrupt() throws Exception {
         try (FileWriter writer = new FileWriter(CardBox.SAVEFILEPATH)) {
             writer.write("corrupted file");
         }
@@ -115,21 +117,17 @@ public class TestCardBox {
     }
 
     @Test
-    public void testCardBoxLoad_FileMissing() {
-        deleteSaveFileIfExists();
-
+    @Tag(SAVEFILETEST)
+    public void testCardBoxLoad_FileMissing() throws Exception {
         CardBoxStorageException exception = assertThrows(CardBoxStorageException.class, () -> cardBox.load());
         assertEquals("Datei nicht gefunden", exception.getMessage());
     }
 
-    private static void deleteSaveFileIfExists() {
+    private static void deleteSaveFileIfExists() throws Exception {
         File file = new File(CardBox.SAVEFILEPATH);
         if (file.exists()) {
-            if (file.delete()) {
-                System.out.println("deleted file");
-            }
-            else {
-                System.out.println("failed to delete file");
+            if (!file.delete()) {
+                throw new Exception("failed to delete save file!");
             }
         }
     }

@@ -53,8 +53,8 @@ public class CardBox {
 
     //CR2
     public void save() throws CardBoxStorageException {
-
-        try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(SAVEFILEPATH))) {
+        try (FileOutputStream fos = new FileOutputStream(SAVEFILEPATH);
+             ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(cards);
         } catch (IOException e) {
             throw new CardBoxStorageException("Fehler beim Speichern der CardBox", e);
@@ -68,7 +68,9 @@ public class CardBox {
            throw new CardBoxStorageException("Datei nicht gefunden");
         }
 
-        try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(SAVEFILEPATH))) {
+        try (FileInputStream fis = new FileInputStream(SAVEFILEPATH);
+             ObjectInputStream ois = new ObjectInputStream(fis)) {
+
             Object obj = ois.readObject();
             if (obj instanceof List) {
                 cards.clear();
