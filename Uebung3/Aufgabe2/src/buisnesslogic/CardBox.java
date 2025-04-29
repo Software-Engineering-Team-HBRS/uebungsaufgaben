@@ -39,7 +39,7 @@ public class CardBox {
         return cards.size();
     }
 
-    //CR1 - Singleton Pattern - Factory wird nicht mehr benötigt
+    //CR1 - Singleton Pattern
     public static CardBox getInstance() {
         if (instance == null) {
             instance = new CardBox();
