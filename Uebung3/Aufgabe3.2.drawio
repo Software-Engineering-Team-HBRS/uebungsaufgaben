@@ -94,8 +94,11 @@
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="950" as="targetPoint" />
+            <mxPoint x="585" y="1030" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8XdRo2cmB4BejIaxNpTz-10" target="8XdRo2cmB4BejIaxNpTz-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-10" value="Zurücklegen in Product Backlog" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="535" y="870" width="100" height="50" as="geometry" />
@@ -131,49 +134,36 @@
         <mxCell id="zSzZWTqhvxV4pjIwZvgy-45" value="Sprintziel vorstellen" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="230" y="440" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zSzZWTqhvxV4pjIwZvgy-46" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;exitX=0.495;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="zSzZWTqhvxV4pjIwZvgy-41" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="380" as="sourcePoint" />
-            <mxPoint x="280" y="360" as="targetPoint" />
+        <mxCell id="8XdRo2cmB4BejIaxNpTz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-16" target="8XdRo2cmB4BejIaxNpTz-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-16" target="8XdRo2cmB4BejIaxNpTz-24" edge="1">
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8XdRo2cmB4BejIaxNpTz-16" target="hUQJzvqZTiSahLYZ6e2b-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-16" value="Aufnahme in Selektierte Produkt Backlog" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="380" y="875" width="100" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-23" target="zSzZWTqhvxV4pjIwZvgy-45" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-23" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Sprintziel&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="230" y="360" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-24" target="8XdRo2cmB4BejIaxNpTz-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-24" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Selektiertes Backlog&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="380" y="950" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-32" target="8XdRo2cmB4BejIaxNpTz-12" edge="1">
+        <mxCell id="8XdRo2cmB4BejIaxNpTz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1.087;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="zSzZWTqhvxV4pjIwZvgy-41" target="zSzZWTqhvxV4pjIwZvgy-45" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="585" y="1010" as="targetPoint" />
+            <mxPoint x="280" y="400.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-32" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Sprintziel&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="535" y="950" width="100" height="50" as="geometry" />
+          <mxGeometry x="610" y="950" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-35" target="8XdRo2cmB4BejIaxNpTz-38" edge="1">
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8XdRo2cmB4BejIaxNpTz-35" target="8XdRo2cmB4BejIaxNpTz-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8XdRo2cmB4BejIaxNpTz-35" target="8XdRo2cmB4BejIaxNpTz-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-35" value="Kapazität bestimmen" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="450" y="1120" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8XdRo2cmB4BejIaxNpTz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-38" target="8XdRo2cmB4BejIaxNpTz-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-38" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Sprintziel&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="450" y="1190" width="100" height="40" as="geometry" />
+          <mxGeometry x="570" y="1190" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8XdRo2cmB4BejIaxNpTz-40" target="8XdRo2cmB4BejIaxNpTz-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -205,6 +195,15 @@
         </mxCell>
         <mxCell id="8XdRo2cmB4BejIaxNpTz-56" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#FF0000,#FFFFFF);" parent="1" vertex="1">
           <mxGeometry x="485" y="1450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hUQJzvqZTiSahLYZ6e2b-4" target="zSzZWTqhvxV4pjIwZvgy-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-4" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Sprintziel&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQJzvqZTiSahLYZ6e2b-6" value="&lt;div&gt;Dokument&lt;/div&gt;&lt;div&gt;Selektiertes Backlog&lt;/div&gt;" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="990" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
