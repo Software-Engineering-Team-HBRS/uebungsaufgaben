@@ -1,6 +1,5 @@
 package client;
 
-import buisnesslogic.*;
 import businesslogic.*;
 
 import java.util.List;

@@ -1,6 +1,5 @@
 package test;
 
-import buisnesslogic.*;
 import businesslogic.*;
 import org.junit.jupiter.api.*;
 
