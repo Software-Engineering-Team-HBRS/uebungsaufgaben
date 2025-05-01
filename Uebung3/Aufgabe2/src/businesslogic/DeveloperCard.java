@@ -1,4 +1,4 @@
-package buisnesslogic;
+package businesslogic;
 
 public class DeveloperCard extends AbstractPersonCard {
     DeveloperCard(String firstName, String lastName, int id) {

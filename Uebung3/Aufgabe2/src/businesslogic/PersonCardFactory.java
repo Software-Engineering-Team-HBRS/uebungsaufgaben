@@ -1,4 +1,4 @@
-package buisnesslogic;
+package businesslogic;
 
 public class PersonCardFactory {
     public static PersonCard createEnduserCard(String FirstName, String LastName, int id) {return new EnduserCard(FirstName, LastName, id);}

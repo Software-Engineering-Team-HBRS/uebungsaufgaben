@@ -1,4 +1,4 @@
-package buisnesslogic;
+package businesslogic;
 
 public class CardBoxStorageException extends CardBoxException {
     public CardBoxStorageException(String message) {

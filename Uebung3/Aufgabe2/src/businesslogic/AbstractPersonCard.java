@@ -1,4 +1,4 @@
-package buisnesslogic;
+package businesslogic;
 
 import java.io.Serializable;
 

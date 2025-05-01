@@ -1,4 +1,4 @@
-package buisnesslogic;
+package businesslogic;
 
 
 public interface PersonCard {
