@@ -1,11 +1,13 @@
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserStory implements Serializable {
 
     int id;
     String description;
     Priority priority;
-    Task[] tasks;
+    List<Task> tasks = new ArrayList<Task>();
 
     public UserStory(int id, String description, Priority priority) throws UserStoryException {
 
@@ -14,8 +16,14 @@ public class UserStory implements Serializable {
         this.priority = priority;
     }
 
+
     public boolean hasTasks() {
-        return this.tasks != null;
+        return !this.tasks.isEmpty();
+    }
+
+    public void addTask(Task task) {
+
+        tasks.add(task);
     }
 
     public String toString() {
