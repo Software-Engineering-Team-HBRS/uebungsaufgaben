@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class UserStoryManager {
 
     private static final Scanner sc = new Scanner(System.in);
-    private static List<UserStory> stories;
-    private static final String SAVEFILEPATH = "user_stories.txt";
+    private static List<UserStory> stories = new ArrayList<>();
+    private static final String SAVEFILEPATH = "Uebung4/user_stories.txt";
 
     public static void main(String[] args) throws UserStoryException {
 
@@ -41,15 +41,16 @@ public class UserStoryManager {
                 case "story":
                     createStory(Integer.parseInt(command[1]),command[2], Priority.valueOf(command[3]));
                     break;
-                /*case "task":
-                    try{
-                        createTask(command[1],command[2]);
-                    }
-                    catch(UserStoryException e){
+                case "task":
+                    int taskId = Integer.parseInt(command[1]);
+                    if(!taskIDExists(taskId)){
 
+                        new Task(taskId,command[2].substring(1, command[2].length()-1));
                     }
-                    break;
-                case "assign":
+                    else{
+                        System.out.println("Task-ID bereits vergeben.");
+                    }
+                /*case "assign":
                     try{
                         assign(command[1],command[2]);
                     }
@@ -62,11 +63,6 @@ public class UserStoryManager {
         }
     }
 
-    public static boolean isEmpty(){
-
-        return stories.isEmpty();
-    }
-
     public static void showStories() {
 
         if(!stories.isEmpty()) {
@@ -76,9 +72,15 @@ public class UserStoryManager {
             for (UserStory story : stories) {
 
                 System.out.println(story);
-                System.out.println("Zugeordnete Tasks:");
-                for (Task task : story.tasks) {
-                    System.out.println(task);
+
+                if(story.hasTasks()) {
+                    System.out.println("Zugeordnete Tasks:");
+                    for (Task task : story.tasks) {
+                        System.out.println(task);
+                    }
+                }
+                else{
+                    System.out.println("Keine Tasks zugeordnet.");
                 }
             }
         }
@@ -89,17 +91,17 @@ public class UserStoryManager {
 
     public static void createStory(int id, String description, Priority priority) throws UserStoryException {
 
-        if(userStoryExists(id)){
+        if(userstoryIDExists(id)){
 
-            System.out.println("UserStory existiert bereits.");
+            System.out.println("UserStory-ID bereits vergeben.");
         }
         else {
 
-            stories.add(new UserStory(id, description,priority));
+            stories.add(new UserStory(id, description.substring(1, description.length()-1),priority));
         }
     }
 
-    public static boolean userStoryExists(int id) {
+    public static boolean userstoryIDExists(int id) {
         if(!stories.isEmpty()) {
             for (UserStory story : stories) {
                 if (story.id == id) {
@@ -110,20 +112,33 @@ public class UserStoryManager {
         return false;
     }
 
-    public static void showTasks() {
-
-        if(!stories.isEmpty()) {
-
-            System.out.println("Die folgenden Tasks sind im System gespeichert:");
-
-            for (UserStory story : stories) {
-
-                for (Task task : story.tasks) {
-                    System.out.println(task);
+    public static boolean taskIDExists(int id) {
+        if(!Task.tasks.isEmpty()) {
+            for (Task task : Task.tasks) {
+                if (task.id == id) {
+                    return true;
                 }
             }
         }
-        System.out.println("Keine Tasks vorhanden.");
+        return false;
+    }
+
+
+
+    public static void showTasks() {
+
+        if(!Task.tasks.isEmpty()) {
+
+            System.out.println("Die folgenden Tasks sind im System gespeichert:");
+
+            for (Task task : Task.tasks) {
+
+                System.out.println(task);
+            }
+        }
+        else {
+            System.out.println("Keine Tasks vorhanden.");
+        }
     }
 
     public static void save() throws UserStoryException {
@@ -131,6 +146,7 @@ public class UserStoryManager {
         try (FileOutputStream fos = new FileOutputStream(SAVEFILEPATH);
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(stories);
+            System.out.println("User Stories und Tasks wurden erfolgreich gespeichert.");
         } catch (IOException e) {
             throw new UserStoryException("Fehler beim Speichern der User Stories", e);
         }
@@ -155,6 +171,7 @@ public class UserStoryManager {
             if (obj instanceof List) {
                 stories.clear();
                 stories.addAll((List<UserStory>) obj);
+                System.out.println("User Stories und Tasks wurden erfolgreich geladen.");
             } else {
                 throw new UserStoryException("unerwarteter Fehler beim Laden der User Stories");
             }
@@ -175,7 +192,7 @@ public class UserStoryManager {
                 input.matches("^tasks$") ||
                 input.matches("^load$") ||
                 input.matches("^save$") ||
-                input.matches("^story \\d+ \\S+ (must|should|could|won_t)$") ||
+                input.matches("^story \\d+ \\\"\\S+\\\" (must|should|could|won_t)$") ||
                 input.matches("^task \\d+ \\S+$") ||
                 input.matches("^assign \\d+ \\d+$");
     }

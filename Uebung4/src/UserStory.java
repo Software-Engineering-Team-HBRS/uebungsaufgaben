@@ -1,4 +1,6 @@
-public class UserStory {
+import java.io.Serializable;
+
+public class UserStory implements Serializable {
 
     int id;
     String description;
@@ -10,5 +12,13 @@ public class UserStory {
         this.id = id;
         this.description = description;
         this.priority = priority;
+    }
+
+    public boolean hasTasks() {
+        return this.tasks != null;
+    }
+
+    public String toString() {
+        return "ID: " + this.id + ", Beschreibung: " + this.description + ", Priorität: " + this.priority;
     }
 }
