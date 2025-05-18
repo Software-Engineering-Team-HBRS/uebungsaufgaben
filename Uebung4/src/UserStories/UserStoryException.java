@@ -1,3 +1,5 @@
+package UserStories;
+
 public class UserStoryException extends Exception{
 
     public UserStoryException(String message){

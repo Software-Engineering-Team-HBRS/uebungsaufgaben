@@ -1,3 +1,5 @@
+package UserStories;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +26,7 @@ public class Task implements Serializable {
             }
         }
 
-        throw new UserStoryException("Task nicht vorhanden.");
+        throw new UserStoryException("UserStories.Task nicht vorhanden.");
     }
 
 }

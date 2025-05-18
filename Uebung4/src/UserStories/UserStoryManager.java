@@ -1,65 +1,46 @@
+package UserStories;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class UserStoryManager {
 
-    private static final Scanner sc = new Scanner(System.in);
     private static List<UserStory> stories = new ArrayList<>();
     private static final String SAVEFILEPATH = "Uebung4/user_stories.txt";
 
-    public static void main(String[] args) throws UserStoryException {
-
-
-        //Initial Load
+    public static void processInput(String input)
+    {
+        System.out.print("> ");
+        String[] command = input.split(" ");
         try {
-            load();
-        }catch (UserStoryException e) {
-            System.out.println(e.getMessage());
-            return;
-        }
-
-        while (true) {
-
-            try {
-
-                System.out.print("> ");
-                String input = sc.nextLine().trim();
-
-                if (!isValidInput(input)) {
-                    System.out.println("Ungültiger Befehl.");
-                    continue;
-                }
-
-                String[] command = input.split(" ");
-
-                switch (command[0]) {
-                    case "stories":
-                        showStories();
-                        break;
-                    case "tasks":
-                        showTasks();
-                        break;
-                    case "load":
-                        load();
-                        break;
-                    case "save":
-                        save();
-                        break;
-                    case "story":
-                        createStory(Integer.parseInt(command[1]), command[2], Priority.valueOf(command[3]));
-                        break;
-                    case "task":
-                        createTask(Integer.parseInt(command[1]), command[2]);
-                        break;
-                    case "assign":
-                        assign(Integer.parseInt(command[1]), Integer.parseInt(command[2]));
-                        break;
-                }
-            } catch (UserStoryException e) {
-                System.out.println(e.getMessage());
+            switch (command[0]) {
+                case "stories":
+                    showStories();
+                    break;
+                case "tasks":
+                    showTasks();
+                    break;
+                case "load":
+                    load();
+                    break;
+                case "save":
+                    save();
+                    break;
+                case "story":
+                    createStory(Integer.parseInt(command[1]), command[2], Priority.valueOf(command[3]));
+                    break;
+                case "task":
+                    createTask(Integer.parseInt(command[1]), command[2]);
+                    break;
+                case "assign":
+                    assign(Integer.parseInt(command[1]), Integer.parseInt(command[2]));
+                    break;
+                default:
+                    System.out.println("ungültiger Befehl!");
             }
+        } catch (UserStoryException e) {
+            System.out.println(e.getMessage());
         }
     }
 
@@ -114,7 +95,7 @@ public class UserStoryManager {
 
         if(userStoryIDExists(id)){
 
-            System.out.println("UserStory-ID bereits vergeben.");
+            System.out.println("UserStories.UserStory-ID bereits vergeben.");
         }
         else {
 
@@ -126,7 +107,7 @@ public class UserStoryManager {
 
         if(taskIDExists(id)){
 
-            System.out.println("Task-ID bereits vergeben.");
+            System.out.println("UserStories.Task-ID bereits vergeben.");
         }
         else {
 
@@ -223,16 +204,5 @@ public class UserStoryManager {
         catch (ClassNotFoundException e) {
             throw new UserStoryException("class not found exception", e);
         }
-    }
-
-    public static boolean isValidInput(String input) {
-
-        return input.matches("^stories$") ||
-                input.matches("^tasks$") ||
-                input.matches("^load$") ||
-                input.matches("^save$") ||
-                input.matches("^story \\d+ \\\"\\S+\\\" (must|should|could|won_t)$") ||
-                input.matches("^task \\d+ \\\"\\S+\\\"$") ||
-                input.matches("^assign \\d+ \\d+$");
     }
 }
