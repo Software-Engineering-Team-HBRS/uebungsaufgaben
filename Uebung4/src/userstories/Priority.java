@@ -1,4 +1,4 @@
-package userstories.manager;
+package userstories;
 
 public enum Priority {
 

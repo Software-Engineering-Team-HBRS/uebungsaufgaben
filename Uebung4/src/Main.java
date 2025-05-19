@@ -1,4 +1,4 @@
-import userstories.client.UserStoryClient;
+import userstories.UserStoryClient;
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class Main {
         UserStoryClient client = new UserStoryClient();
 
         while (true) {
+            System.out.print("> ");
             String input = sc.nextLine().trim();
             client.processInput(input);
         }

@@ -1,4 +1,4 @@
-package userstories.manager;
+package userstories;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -11,8 +11,7 @@ public class UserStory implements Serializable {
     Priority priority;
     List<Task> tasks = new ArrayList<Task>();
 
-    public UserStory(int id, String description, Priority priority) throws UserStoryException {
-
+    public UserStory(int id, String description, Priority priority) {
         this.id = id;
         this.description = description;
         this.priority = priority;
@@ -20,11 +19,13 @@ public class UserStory implements Serializable {
 
 
     public boolean hasTasks() {
-        return !this.tasks.isEmpty();
+        return !tasks.isEmpty();
     }
 
-    public void addTask(Task task) {
-
+    public void addTask(Task task) throws UserStoryException {
+        if (tasks.contains(task)) {
+            throw new UserStoryException("Task ist bereits zu dieser Story zugeordnet");
+        }
         tasks.add(task);
     }
 
