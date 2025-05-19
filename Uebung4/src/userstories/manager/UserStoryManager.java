@@ -1,4 +1,4 @@
-package UserStories;
+package userstories.manager;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -6,45 +6,14 @@ import java.util.List;
 
 public class UserStoryManager {
 
-    private static List<UserStory> stories = new ArrayList<>();
-    private static final String SAVEFILEPATH = "Uebung4/user_stories.txt";
+    private List<UserStory> stories = new ArrayList<>();
+    private String saveFilePath = "Uebung4/user_stories.txt";
 
-    public static void processInput(String input)
-    {
-        System.out.print("> ");
-        String[] command = input.split(" ");
-        try {
-            switch (command[0]) {
-                case "stories":
-                    showStories();
-                    break;
-                case "tasks":
-                    showTasks();
-                    break;
-                case "load":
-                    load();
-                    break;
-                case "save":
-                    save();
-                    break;
-                case "story":
-                    createStory(Integer.parseInt(command[1]), command[2], Priority.valueOf(command[3]));
-                    break;
-                case "task":
-                    createTask(Integer.parseInt(command[1]), command[2]);
-                    break;
-                case "assign":
-                    assign(Integer.parseInt(command[1]), Integer.parseInt(command[2]));
-                    break;
-                default:
-                    System.out.println("ungültiger Befehl!");
-            }
-        } catch (UserStoryException e) {
-            System.out.println(e.getMessage());
-        }
+    public void SetSaveFilePath(String path) {
+        saveFilePath = path;
     }
 
-    public static void showStories() {
+    public void showStories() {
 
         if(!stories.isEmpty()) {
 
@@ -74,7 +43,7 @@ public class UserStoryManager {
         }
     }
 
-    public static void showTasks() {
+    public void showTasks() {
 
         if(!Task.tasks.isEmpty()) {
 
@@ -91,7 +60,7 @@ public class UserStoryManager {
         }
     }
 
-    public static void createStory(int id, String description, Priority priority) throws UserStoryException {
+    public void createStory(int id, String description, Priority priority) throws UserStoryException {
 
         if(userStoryIDExists(id)){
 
@@ -103,7 +72,7 @@ public class UserStoryManager {
         }
     }
 
-    public static void createTask(int id, String description) throws UserStoryException {
+    public void createTask(int id, String description) throws UserStoryException {
 
         if(taskIDExists(id)){
 
@@ -115,7 +84,7 @@ public class UserStoryManager {
         }
     }
 
-    public static void assign(int userStoryID, int taskID) throws UserStoryException {
+    public void assign(int userStoryID, int taskID) throws UserStoryException {
 
         try{
             UserStory story = getUserStory(userStoryID);
@@ -125,7 +94,7 @@ public class UserStoryManager {
         }
     }
 
-    public static UserStory getUserStory(int id) throws UserStoryException {
+    public UserStory getUserStory(int id) throws UserStoryException {
 
         for (UserStory story : stories) {
             if(story.id==id){
@@ -135,7 +104,7 @@ public class UserStoryManager {
         throw new UserStoryException("User Story nicht vorhanden.");
     }
 
-    public static boolean userStoryIDExists(int id) {
+    public boolean userStoryIDExists(int id) {
 
         if(!stories.isEmpty()) {
             for (UserStory story : stories) {
@@ -147,7 +116,7 @@ public class UserStoryManager {
         return false;
     }
 
-    public static boolean taskIDExists(int id) {
+    public boolean taskIDExists(int id) {
 
         if(!Task.tasks.isEmpty()) {
             for (Task task : Task.tasks) {
@@ -159,9 +128,9 @@ public class UserStoryManager {
         return false;
     }
 
-    public static void save() throws UserStoryException {
+    public void save() throws UserStoryException {
 
-        try (FileOutputStream fos = new FileOutputStream(SAVEFILEPATH);
+        try (FileOutputStream fos = new FileOutputStream(saveFilePath);
              ObjectOutputStream oos = new ObjectOutputStream(fos)) {
              oos.writeObject(stories);
 
@@ -171,9 +140,9 @@ public class UserStoryManager {
         }
     }
 
-    public static void load() throws UserStoryException {
+    public void load() throws UserStoryException {
 
-        File file = new File(SAVEFILEPATH);
+        File file = new File(saveFilePath);
         if (!file.exists()) {
             throw new UserStoryException("Datei nicht gefunden");
         }
@@ -183,7 +152,7 @@ public class UserStoryManager {
             return;
         }
 
-        try (FileInputStream fis = new FileInputStream(SAVEFILEPATH);
+        try (FileInputStream fis = new FileInputStream(saveFilePath);
              ObjectInputStream ois = new ObjectInputStream(fis)) {
 
             Object obj = ois.readObject();

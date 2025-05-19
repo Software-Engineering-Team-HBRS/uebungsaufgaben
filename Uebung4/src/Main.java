@@ -1,14 +1,16 @@
-import UserStories.UserStoryManager;
+import userstories.client.UserStoryClient;
 
 import java.util.Scanner;
 
 public class Main {
-    private static final Scanner sc = new Scanner(System.in);
-
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        UserStoryClient client = new UserStoryClient();
+
         while (true) {
             String input = sc.nextLine().trim();
-            UserStoryManager.processInput(input);
+            client.processInput(input);
         }
     }
 }

@@ -1,4 +1,4 @@
-package UserStories;
+package userstories.manager;
 
 public class UserStoryException extends Exception{
 
