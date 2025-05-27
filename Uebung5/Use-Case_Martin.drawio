@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Seite-1" id="fq8yMHH-g4XX3sPDPosw">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="490" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-2" value="Unternehmer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=1;startArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154.98" y="350" as="targetPoint" />
+            <mxPoint x="74.98" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="74.98" y="340" />
+              <mxPoint x="154.98" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-3" value="Studierender" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-5" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="115.16" y="340" as="sourcePoint" />
+            <mxPoint x="114.66" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-12" value="Jobsuche Plattform" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="190" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-13" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9Zz4fDrP-87PPmdt9Kxs-1" target="9Zz4fDrP-87PPmdt9Kxs-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-16" value="Registrieren" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-17" value="Projekt planen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="554.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-18" value="Suchauftrag" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="650" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-19" value="Abgleich mit Handelsregister" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-20" value="Profilverwaltung" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="220" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-21" value="Abfrage der Sprachen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-22" value="Liste verwalten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="564" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-23" value="Projekt ausschreiben" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="460" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-24" value="Suchanfragen stellen" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Zz4fDrP-87PPmdt9Kxs-25" value="Bewerbungen verwalten" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
